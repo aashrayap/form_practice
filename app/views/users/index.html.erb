@@ -1,0 +1,10 @@
+Hello
+
+<ul id="users">
+	<%=@user.each do |user| %>
+	  <li>
+	  	<%=user.username%>
+	  	<%= user.email%>
+	  </li>
+	<%end%>
+</ul>
