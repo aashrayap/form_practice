@@ -19,8 +19,6 @@ class UsersController < ApplicationController
   end
 
 
-
-
   private 
   def whitelisted
     params.require(:user).permit(:username,:email,:password)
